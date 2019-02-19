@@ -184,6 +184,35 @@ section {
     width: 90%; }
   section h2 {
     font-size: 3.2rem; }
+    
+#passions{
+  margin: 0 auto 450px auto;
+} 
+  #passions .fas{
+    font-size: 60px;
+  }
+  #passions h2{
+    margin-bottom: 50px;
+  }
+  #passions .passions-box{
+    width: 50%;
+   float: left;
+   }
+  #passions h3{
+    text-align: center;
+    font-size: 2.2rem;
+  } 
+  #passions p{
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  #passions .icon-billiards{
+    padding: 18px 0px;
+    zoom: 1.3;
+  }
+  #passions .text{
+    padding :30px;
+  }
 
 #skills {
   background-color: #26c8ff; }
@@ -309,6 +338,16 @@ section {
     #works .works-box a:hover .works-box-inner {
       display: block;
       width: 100%; } }
+
+#aspiration{
+  margin: auto;
+}      
+#colleague{
+   margin: auto;     
+ }
+ 
+ 
+      
 #contact ul {
   text-align: center;
   margin-top: 60px; }
@@ -323,10 +362,14 @@ section {
     vertical-align: top; }
     #contact ul li:last-child {
       margin-right: 0; }
-  #contact ul .github, #contact ul .skype {
+  #contact ul .github, #contact ul .twitter, #contact ul .instagram {
     font-size: 3.2rem; }
   #contact ul .github i {
     margin-left: 2px; }
+  #contact ul .twitter i {
+    margin-left: 2px; }  
+  #contact ul .instagram i {
+    margin-left: 3px; }  
   #contact ul a {
     display: block;
     width: 50px;

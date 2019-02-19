@@ -1,0 +1,225 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  html{
+    font-size: 15px;
+  }
+  /*******************************************/
+  /*box1*/
+  .box1 .inner img{
+    height:140px;
+    margin-top: calc(50vh - 70px);
+  }
+  /*******************************************/
+  /*box2*/
+  .box2{
+    padding: 5vh 5vw;
+  }
+  .profile_img{
+    flex-basis: 40%;
+  }
+  .brackets h2{
+      font-size: 3em;
+  }
+  .brackets h3{
+      font-size: 1em;
+  }
+  .profile_img img{
+    width: 70%;
+    margin-top: 0px;
+    padding:10px;
+  }
+  .profile_img .name_j{
+    margin-top: 5px;
+    font-size: 2.3em;
+    line-height: 1.2em;
+  }
+  .profile_img .name_e{
+    margin-bottom: 5px;
+  }
+  .profile_img .name_j{
+    font-size: 2.3em;
+    line-height: 1.2em;
+  }
+  .skill_name{
+    height: 10px;
+  }
+  .profile{
+    line-height: 17px;
+  }
+  .skill{
+    line-height: 0px;
+  }
+  /*******************************************/
+  /*box3*/
+  .passions_inner{
+    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .passions_img{
+    width: 100%;
+    margin-right: 0px;
+    display: block;
+    height: 100%;
+  }
+  .passions_text{
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    position: absolute;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .passions_img{
+    height: 100vh;
+  }
+  .passions_img img{
+    width: auto;
+    height: 100%;
+    margin-right: 0px;
+    box-shadow: 15px 20px rgba(0,0,0,0.0);
+  }
+  .passions_text h3{
+      margin-bottom: 40px;
+  }
+  /*******************************************/
+  /*box4*/
+  .box4 .wrapper ul li{
+      width: 43%;
+      margin: 2%;
+  }
+  .box4:before {
+    height: 94%;
+  }
+  /*******************************************/
+  /*box5*/
+  /*******************************************/
+  /*box6*/
+  .one_word{
+    width: 80%;
+    height: 80%;
+  }
+  /*******************************************/
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  html{
+    font-size: 12px;
+  }
+  /*******************************************/
+  /*box1*/
+  .box1 .inner img{
+    height:180px;
+    margin-top: calc(50vh - 100px);
+  }
+  .box1 .inner .fa-angle-double-down{
+    font-size: 40px;
+  }
+  /*******************************************/
+  /*box2*/
+  .box2{
+  }
+  .prof_box{
+    padding: 10px;
+  }
+  .brackets{
+    padding: 15px 15px 5px;
+  }
+  .brackets:before,.brackets:after{
+      content:'';
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      display: inline-block;
+  }
+  .brackets .wrapper{
+    display: block;
+  }
+  .profile_img{
+    flex-basis: 100%;
+  }
+  .profile_img img{
+    width: 45%;
+    margin-top: 0px;
+    padding:6px;
+  }
+  .profile_img .name_j{
+    font-size: 2.3em;
+    letter-spacing: 0.3em;
+    text-indent: 0.3em;
+  }
+  .profile_img .name_e{
+    font-size: 0.7em;
+  }
+  .profile_p{
+    flex-basis: 100%;
+    margin: 0 auto;
+  }
+  .profile_p table{
+    margin: 0 auto;
+  }
+  tr th{
+    padding: 0px;
+  }
+  /*******************************************/
+  /*box3*/
+  .passions_text{
+    padding: 20px 20px;
+  }
+  .passions_text h2{
+    font-size: 3em;
+  }
+  .passions_text h3{
+      letter-spacing: 1em;
+      text-indent: 1em;
+      margin-bottom: 15px;
+  }
+  .title {
+    width: 250px;
+  }
+  /*******************************************/
+  /*box4*/
+  .slanting_inner{
+    padding: 50px 10px 50px;
+  }
+  .slanting_inner h3{
+      margin-bottom: 8vw;
+  }
+  .box4 .wrapper ul li{
+      width: 65%;
+      margin: 2%;
+      margin-bottom: 15px;
+  }
+  .slanting_inner h2{
+    margin-top: -40px;
+  }
+  .box4 .wrapper .element{
+    overflow: hidden;
+    box-shadow: 10px 10px rgba(255,255,255,0.15);
+  }
+  /*******************************************/
+  /*box5*/
+  .right_black{
+    height: 85vh;
+    margin-left: 5vw;
+  }
+  .center_t h2{
+    font-size: 3em;
+  }
+  .center_t h3{
+    letter-spacing: 0.2em;
+  }
+  /*******************************************/
+  /*box6*/
+  /*******************************************/
+  .back img{
+   width: 80px;
+  }
+}
