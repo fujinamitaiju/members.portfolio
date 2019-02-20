@@ -184,19 +184,48 @@ section {
     width: 90%; }
   section h2 {
     font-size: 3.2rem; }
-    
-#passions{
+  
+  
+  
+  #passions .passions-box{
+    text-align: center;
+    margin: 30px 10px;
+    padding: 30px 0;
+  }
+  #passions h3{
+    font-size: 2.2rem;
+    margin-top: 20px;
+  }
+  #passions p{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  #passions .type{
+    color: #b2b2b2
+  }
+  #passions .text{
+    margin-top: 20px;
+    padding: 40px 0;
+  }
+ 
+/*#passions{
   margin: 0 auto 450px auto;
 } 
   #passions .fas{
     font-size: 60px;
   }
+  #passions{
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: space-between;
+  }
+  
   #passions h2{
-    margin-bottom: 50px;
+    text-align: center;
   }
   #passions .passions-box{
     width: 50%;
-   float: left;
+    float: left;
    }
   #passions h3{
     text-align: center;
@@ -213,7 +242,18 @@ section {
   #passions .text{
     padding :30px;
   }
-
+  @media (min-width: 1025px) {
+  
+  
+  #passions{
+    flex-direction: row;
+  }
+  #passions .container {
+    -webkit-flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between; }
+ }
+*/
 #skills {
   background-color: #26c8ff; }
   #skills .container {
